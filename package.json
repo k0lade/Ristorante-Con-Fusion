@@ -1,0 +1,39 @@
+{
+  "name":"confusion",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "expo": "^34.0.1",
+    "expo-calendar": "~6.0.0",
+    "expo-image-manipulator": "~6.0.0",
+    "expo-image-picker": "~6.0.0",
+    "expo-mail-composer": "~6.0.0",
+    "expo-permissions": "~6.0.0",
+    "expo-secure-store": "~6.0.0",
+    "react": "16.8.3",
+    "react-dom": "^16.8.6",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
+    "react-native-animatable": "1.2.4",
+    "react-native-datepicker": "1.7.2",
+    "react-native-elements": "^1.0.0-beta8",
+    "react-native-mail-compose": "0.0.6",
+    "react-native-swipeout": "2.3.3",
+    "react-native-web": "^0.11.4",
+    "react-navigation": "2.0.1",
+    "react-redux": "5.0.7",
+    "redux": "4.0.0",
+    "redux-logger": "3.0.6",
+    "redux-persist": "5.9.1",
+    "redux-thunk": "2.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^6.0.0"
+  },
+  "private": true
+}
